@@ -3,12 +3,12 @@
     "interfaces": [
         {
             "name": "PeriodicElement",
-            "id": "interface-PeriodicElement-537cba20f2231895e30206edafd45314b434ef4db70e03f0b2437278fe56a98c376e2e8db1c366582b4ad5524e5b6fb43dde10a77877aa3210fe9506c154c3e2",
+            "id": "interface-PeriodicElement-401a21aebee999ee9d5ea6ac136880aea78c63b142d4d04ea4e99ac97bff9d7c6bc9299ab86c0c987ffa633b8cf88fe91382b2ef76b74e680375b32699fe7630",
             "file": "src/app/table-basic-example.ts",
             "deprecated": false,
             "deprecationMessage": "",
             "type": "interface",
-            "sourceCode": "import {Component} from '@angular/core';\r\n\r\nexport interface PeriodicElement {\r\n  name: string;\r\n  position: number;\r\n  weight: number;\r\n  symbol: string;\r\n}\r\n\r\nconst ELEMENT_DATA: PeriodicElement[] = [\r\n  {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},\r\n  {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},\r\n  {position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li'},\r\n  {position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be'},\r\n  {position: 5, name: 'Boron', weight: 10.811, symbol: 'B'},\r\n  {position: 6, name: 'Carbon', weight: 12.0107, symbol: 'C'},\r\n  {position: 7, name: 'Nitrogen', weight: 14.0067, symbol: 'N'},\r\n  {position: 8, name: 'Oxygen', weight: 15.9994, symbol: 'O'},\r\n  {position: 9, name: 'Fluorine', weight: 18.9984, symbol: 'F'},\r\n  {position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne'},\r\n];\r\n\r\n/**\r\n * @title Basic use of `<table mat-table>`\r\n */\r\n@Component({\r\n  selector: 'table-basic-example',\r\n  styleUrls: ['table-basic-example.css'],\r\n  templateUrl: 'table-basic-example.html',\r\n})\r\nexport class TableBasicExample {\r\n  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];\r\n  dataSource = ELEMENT_DATA;\r\n}\r\n\r\n\r\n/**  Copyright 2022 Google LLC. All Rights Reserved.\r\n    Use of this source code is governed by an MIT-style license that\r\n    can be found in the LICENSE file at https://angular.io/license */",
+            "sourceCode": "import {Component} from '@angular/core';\r\n\r\nexport interface PeriodicElement {\r\n  name: string;\r\n  position: number;\r\n  weight: number;\r\n  symbol: string;\r\n}\r\n\r\nexport const ELEMENT_DATA: PeriodicElement[] = [\r\n  {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},\r\n  {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},\r\n  {position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li'},\r\n  {position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be'},\r\n  {position: 5, name: 'Boron', weight: 10.811, symbol: 'B'},\r\n  {position: 6, name: 'Carbon', weight: 12.0107, symbol: 'C'},\r\n  {position: 7, name: 'Nitrogen', weight: 14.0067, symbol: 'N'},\r\n  {position: 8, name: 'Oxygen', weight: 15.9994, symbol: 'O'},\r\n  {position: 9, name: 'Fluorine', weight: 18.9984, symbol: 'F'},\r\n  {position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne'},\r\n];\r\n\r\n/**\r\n * @title Basic use of `<table mat-table>`\r\n */\r\n@Component({\r\n  selector: 'table-basic-example',\r\n  styleUrls: ['table-basic-example.css'],\r\n  templateUrl: 'table-basic-example.html',\r\n})\r\nexport class TableBasicExample {\r\n  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];\r\n  dataSource = ELEMENT_DATA;\r\n}\r\n\r\n\r\n/**  Copyright 2022 Google LLC. All Rights Reserved.\r\n    Use of this source code is governed by an MIT-style license that\r\n    can be found in the LICENSE file at https://angular.io/license */",
             "properties": [
                 {
                     "name": "name",
@@ -349,7 +349,7 @@
         },
         {
             "name": "TableBasicExample",
-            "id": "component-TableBasicExample-537cba20f2231895e30206edafd45314b434ef4db70e03f0b2437278fe56a98c376e2e8db1c366582b4ad5524e5b6fb43dde10a77877aa3210fe9506c154c3e2",
+            "id": "component-TableBasicExample-401a21aebee999ee9d5ea6ac136880aea78c63b142d4d04ea4e99ac97bff9d7c6bc9299ab86c0c987ffa633b8cf88fe91382b2ef76b74e680375b32699fe7630",
             "file": "src/app/table-basic-example.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -397,7 +397,7 @@
             "description": "",
             "rawdescription": "\n\n",
             "type": "component",
-            "sourceCode": "import {Component} from '@angular/core';\r\n\r\nexport interface PeriodicElement {\r\n  name: string;\r\n  position: number;\r\n  weight: number;\r\n  symbol: string;\r\n}\r\n\r\nconst ELEMENT_DATA: PeriodicElement[] = [\r\n  {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},\r\n  {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},\r\n  {position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li'},\r\n  {position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be'},\r\n  {position: 5, name: 'Boron', weight: 10.811, symbol: 'B'},\r\n  {position: 6, name: 'Carbon', weight: 12.0107, symbol: 'C'},\r\n  {position: 7, name: 'Nitrogen', weight: 14.0067, symbol: 'N'},\r\n  {position: 8, name: 'Oxygen', weight: 15.9994, symbol: 'O'},\r\n  {position: 9, name: 'Fluorine', weight: 18.9984, symbol: 'F'},\r\n  {position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne'},\r\n];\r\n\r\n/**\r\n * @title Basic use of `<table mat-table>`\r\n */\r\n@Component({\r\n  selector: 'table-basic-example',\r\n  styleUrls: ['table-basic-example.css'],\r\n  templateUrl: 'table-basic-example.html',\r\n})\r\nexport class TableBasicExample {\r\n  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];\r\n  dataSource = ELEMENT_DATA;\r\n}\r\n\r\n\r\n/**  Copyright 2022 Google LLC. All Rights Reserved.\r\n    Use of this source code is governed by an MIT-style license that\r\n    can be found in the LICENSE file at https://angular.io/license */",
+            "sourceCode": "import {Component} from '@angular/core';\r\n\r\nexport interface PeriodicElement {\r\n  name: string;\r\n  position: number;\r\n  weight: number;\r\n  symbol: string;\r\n}\r\n\r\nexport const ELEMENT_DATA: PeriodicElement[] = [\r\n  {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},\r\n  {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},\r\n  {position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li'},\r\n  {position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be'},\r\n  {position: 5, name: 'Boron', weight: 10.811, symbol: 'B'},\r\n  {position: 6, name: 'Carbon', weight: 12.0107, symbol: 'C'},\r\n  {position: 7, name: 'Nitrogen', weight: 14.0067, symbol: 'N'},\r\n  {position: 8, name: 'Oxygen', weight: 15.9994, symbol: 'O'},\r\n  {position: 9, name: 'Fluorine', weight: 18.9984, symbol: 'F'},\r\n  {position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne'},\r\n];\r\n\r\n/**\r\n * @title Basic use of `<table mat-table>`\r\n */\r\n@Component({\r\n  selector: 'table-basic-example',\r\n  styleUrls: ['table-basic-example.css'],\r\n  templateUrl: 'table-basic-example.html',\r\n})\r\nexport class TableBasicExample {\r\n  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];\r\n  dataSource = ELEMENT_DATA;\r\n}\r\n\r\n\r\n/**  Copyright 2022 Google LLC. All Rights Reserved.\r\n    Use of this source code is governed by an MIT-style license that\r\n    can be found in the LICENSE file at https://angular.io/license */",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -498,6 +498,16 @@
     "miscellaneous": {
         "variables": [
             {
+                "name": "Better",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/table-basic-example.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "template.bind({})"
+            },
+            {
                 "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -508,7 +518,7 @@
                 "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
             },
             {
-                "name": "Default",
+                "name": "DefaultWithErrors",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
                 "file": "src/app/table-basic-example.stories.ts",
@@ -681,6 +691,38 @@
         "typealiases": [],
         "enumerations": [],
         "groupedVariables": {
+            "src/app/table-basic-example.stories.ts": [
+                {
+                    "name": "Better",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/table-basic-example.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "template.bind({})"
+                },
+                {
+                    "name": "DefaultWithErrors",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/table-basic-example.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "template.bind({})"
+                },
+                {
+                    "name": "template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/table-basic-example.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<TableBasicExample>",
+                    "defaultValue": "(args: TableBasicExample) => ({\r\n  props: {\r\n    ...args,\r\n  },\r\n})"
+                }
+            ],
             "src/test.ts": [
                 {
                     "name": "context",
@@ -700,28 +742,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "literal type"
-                }
-            ],
-            "src/app/table-basic-example.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/table-basic-example.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "template.bind({})"
-                },
-                {
-                    "name": "template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/table-basic-example.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<TableBasicExample>",
-                    "defaultValue": "(args: TableBasicExample) => ({\r\n  props: {\r\n    ...args,\r\n  },\r\n})"
                 }
             ],
             "src/app/table-basic-example.ts": [
@@ -891,7 +911,17 @@
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
-                "name": "Default",
+                "name": "Better",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/table-basic-example.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "DefaultWithErrors",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
