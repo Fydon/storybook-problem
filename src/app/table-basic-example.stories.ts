@@ -23,13 +23,9 @@ const template: Story<TableBasicExample> = (args: TableBasicExample) => ({
 export const DefaultWithErrors = template.bind({});
 
 export const Better = template.bind({});
-Better.argTypes = {
+Better.args = {
   // Removes error in browser's console, but breaks Control
-  dataSource: {
-    defaultValue: ELEMENT_DATA,
-  },
+  dataSource: ELEMENT_DATA,
   // Removes error in browser's console and corrects Control
-  displayedColumns: {
-    defaultValue: ['position', 'name', 'weight', 'symbol'],
-  },
+  displayedColumns: ['position', 'name', 'weight', 'symbol'],
 };
