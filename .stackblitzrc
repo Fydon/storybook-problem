@@ -1,6 +1,6 @@
 {
   "installDependencies": true,
-  "startCommand": "turbo start",
+  "startCommand": "turbo run storybook",
   "env": {
     "ENABLE_CJS_IMPORTS": true
   }
