@@ -498,16 +498,6 @@
     "miscellaneous": {
         "variables": [
             {
-                "name": "Better",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/table-basic-example.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "template.bind({})"
-            },
-            {
                 "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -519,6 +509,16 @@
             },
             {
                 "name": "DefaultWithErrors",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/table-basic-example.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "template.bind({})"
+            },
+            {
+                "name": "DisableControl",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
                 "file": "src/app/table-basic-example.stories.ts",
@@ -637,6 +637,26 @@
                 "defaultValue": "Template.bind({})"
             },
             {
+                "name": "SetArgTypesAsOther",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/table-basic-example.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "template.bind({})"
+            },
+            {
+                "name": "SetArgTypesAsStringArray",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/table-basic-example.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "template.bind({})"
+            },
+            {
                 "name": "Small",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -685,44 +705,22 @@
                 "deprecationMessage": "",
                 "type": "Story<Page>",
                 "defaultValue": "(args: Page) => ({\n  props: args,\n})"
+            },
+            {
+                "name": "WordAround",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/table-basic-example.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "template.bind({})"
             }
         ],
         "functions": [],
         "typealiases": [],
         "enumerations": [],
         "groupedVariables": {
-            "src/app/table-basic-example.stories.ts": [
-                {
-                    "name": "Better",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/table-basic-example.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "template.bind({})"
-                },
-                {
-                    "name": "DefaultWithErrors",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/table-basic-example.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "template.bind({})"
-                },
-                {
-                    "name": "template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/table-basic-example.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<TableBasicExample>",
-                    "defaultValue": "(args: TableBasicExample) => ({\r\n  props: {\r\n    ...args,\r\n  },\r\n})"
-                }
-            ],
             "src/test.ts": [
                 {
                     "name": "context",
@@ -742,6 +740,68 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "literal type"
+                }
+            ],
+            "src/app/table-basic-example.stories.ts": [
+                {
+                    "name": "DefaultWithErrors",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/table-basic-example.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "template.bind({})"
+                },
+                {
+                    "name": "DisableControl",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/table-basic-example.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "template.bind({})"
+                },
+                {
+                    "name": "SetArgTypesAsOther",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/table-basic-example.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "template.bind({})"
+                },
+                {
+                    "name": "SetArgTypesAsStringArray",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/table-basic-example.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "template.bind({})"
+                },
+                {
+                    "name": "template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/table-basic-example.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<TableBasicExample>",
+                    "defaultValue": "(args: TableBasicExample) => ({\r\n  props: {\r\n    ...args,\r\n  },\r\n})"
+                },
+                {
+                    "name": "WordAround",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/table-basic-example.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "template.bind({})"
                 }
             ],
             "src/app/table-basic-example.ts": [
@@ -903,19 +963,9 @@
     },
     "routes": [],
     "coverage": {
-        "count": 3,
+        "count": 2,
         "status": "low",
         "files": [
-            {
-                "filePath": "src/app/table-basic-example.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Better",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
             {
                 "filePath": "src/app/table-basic-example.stories.ts",
                 "type": "variable",
@@ -931,7 +981,47 @@
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
+                "name": "DisableControl",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/table-basic-example.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "SetArgTypesAsOther",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/table-basic-example.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "SetArgTypesAsStringArray",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/table-basic-example.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
                 "name": "template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/table-basic-example.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "WordAround",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
