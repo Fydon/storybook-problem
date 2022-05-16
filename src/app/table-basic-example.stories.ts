@@ -23,15 +23,15 @@ const template: Story<TableBasicExample> = (args: TableBasicExample) => ({
 // Errors in browser console
 export const DefaultWithErrors = template.bind({});
 
-export const WordAround = template.bind({});
-WordAround.args = {
+export const WorkAround = template.bind({});
+WorkAround.args = {
   // Removes error in browser's console, but breaks Control
   dataSource: ELEMENT_DATA,
   // Removes error in browser's console and corrects Control
   displayedColumns: ['position', 'name', 'weight', 'symbol'],
 };
 // Fixes control
-WordAround.argTypes = {
+WorkAround.argTypes = {
   dataSource: {
     type: {
       name: 'array',
